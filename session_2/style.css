@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
 
-@font-face {
-  font-family: XX;
-  src: url('./fonts/font-xx');
-}
-
 .noto-sans-mono {
   font-family: "Noto Sans Mono", monospace;
   font-optical-sizing: auto;
@@ -13,7 +8,6 @@
   font-variation-settings:
     "wdth" 100;
 }
-
 
 * {
   font-size: 2rem;
