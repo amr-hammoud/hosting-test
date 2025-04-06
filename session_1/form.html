@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+
+  <style>
+    form {
+      font-family: sans-serif;
+      background-color: #8ee9c8;
+      padding: 10px;
+      width: 50%;
+      margin: auto;
+    }
+
+    img {
+      width: 50%;
+      margin: auto;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    .input-group {
+      margin: 10px 0;
+    }
+
+    .input-group label {
+      display: inline-block;
+      width: fit-content;
+      min-width: 70px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <form>
+    <div class="input-group">
+      <label for="name">name</label>
+      <input type="text" id="name">
+    </div>
+
+    <div class="input-group">
+      <label for="email">email</label>
+      <input type="email" id="email">
+    </div>
+
+    <div class="input-group">
+      <label for="password">password</label>
+      <input type="password" id="password">
+    </div>
+
+    <hr>
+    <div class="input-group">
+      <p>Favorite color</p>
+      <div>
+        <input type="radio" value="mercedes" name="color_choose" id="red">
+        <label for="red">Red</label>
+      </div>
+
+      <div>
+        <input type="radio" value="green" name="color_choose" id="green">
+        <label for="green">Green</label>
+      </div>
+
+      <div>
+        <input type="radio" value="yellow" name="color_choose" id="yellow">
+        <label>Yellow</label>
+      </div>
+    </div>
+
+    <hr>
+    <div class="input-group">
+      <p>governarate</p>
+      <select name="governarate" id="governarate">
+        <option value="beirut">Beirut</option>
+        <option value="mount-lebanon">Mount Lebanon</option>
+        <option value="northern-lebanon">Northern Lebanon</option>
+        <option value="south-lebanon">South Lebanon</option>
+        <option value="beqaa">Beqaa</option>
+      </select>
+    </div>
+
+
+    <div>
+      <button>Submit</button>
+    </div>
+  </form>
+</body>
+
+</html>

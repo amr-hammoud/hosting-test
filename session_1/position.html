@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position</title>
+
+  <style>
+    .item {
+      padding: 50px;
+      margin: 10px;
+      border: 1px solid #000;
+      background-color: #dedede;
+    }
+
+    .child {
+      padding: 25px;
+      border: 1px black solid;
+      background-color: #8ee9c8;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    /* uncomment this to force the child position to be relative to the box2 div */
+    #box2 {
+      /* position: relative; */
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="item" id="box1"></div>
+
+  <div class="item" id="box2">
+    <div class="child">Child 1</div>
+  </div>
+
+
+</body>
+
+</html>

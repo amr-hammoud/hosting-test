@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Position</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .top {
+      background-color: #28eea7;
+      height: 200px;
+    }
+
+    .sticky {
+      /* position: sticky; */
+      top: 0;
+      background-color: #333333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    section {
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    .content {
+      height: 1000px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top"></div>
+  <div class="sticky">
+    Sticky Element
+  </div>
+  <section class="content">
+    <h2>Section 1</h2>
+    <p>This is the content of section 1. Scroll down to see the sticky navigation bar in action.</p>
+  </section>
+  <section class="content">
+    <h2>Section 2</h2>
+    <p>This is the content of section 2. Scroll down to see the sticky navigation bar in action.</p>
+  </section>
+</body>
+
+</html>
