@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+@font-face {
+  font-family: XX;
+  src: url('./fonts/font-xx');
+}
+
+.noto-sans-mono {
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+* {
+  font-size: 2rem;
+
+}
+
+html {
+  font-size: 16px;
+}
+
+
+#name {
+  margin-bottom: 10px;
+}
+
+#name:focus {
+  border: 3px solid blue;
+  outline: none;
+}
+
+.styled-button {
+  color: black;
+  background-color: aquamarine;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.styled-button:hover {
+  background-color: rgb(74, 183, 147);
+  cursor: pointer;
+}
+
+.styled-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.styled-button:active {
+  background-color: red;
+}
+
+
+.container {
+  margin-top: 10px;
+  font-size: 5px;
+}
+
+.container p {
+  font-size: 3rem;
+}
+
+h1 {
+  color: blue;
+}
+
+h1.underline {
+  text-decoration: underline;
+}
+
+.lorem {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: chocolate;
+  text-align: justify;
+  line-height: 1.5;
+  text-transform: lowercase;
+  text-indent: 30px;
+  background-color: bisque;
+}
+
+
+/* media query */
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+  .lorem {
+    background-color: aquamarine;
+    font-size: 2rem;
+  }
+}
