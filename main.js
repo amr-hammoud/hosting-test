@@ -5,7 +5,7 @@
 // ------------- String --------------
 // declare string using single or double quotes
 // or backticks (template literals)
-const name1 = `Alex`;
+const name1 = `Alex asdj asjdh ${name2}`;
 const name2 = 'hello "Alex"';
 const name3 = "hello 'Alex'";
 
@@ -51,7 +51,7 @@ const n = null;
 // array is a list of values
 // array can contain different data types
 // array can contain other arrays or objects
-const array1 = [1, 2, 3, 4];
+
 const array2 = [
 	1,
 	"Ali",
@@ -62,6 +62,10 @@ const array2 = [
 		color: "White",
 	},
 ];
+
+
+const array1 = [1, 2, 3, 4];
+
 
 // array methods
 const array4 = array1.slice(1, 3); // [2, 3]
@@ -115,6 +119,7 @@ for (let i = 0; i < 5; i++) {
 for (let key in myObject) {
 	console.log(key, myObject[key]);
 }
+
 // ---------- for of loop -----------
 // for (value of array) {
 // 	code block to be executed
@@ -122,6 +127,7 @@ for (let key in myObject) {
 for (let value of array1) {
 	console.log(value);
 }
+
 // ---------- forEach loop ----------
 // array.forEach(function (value, index) {
 // 	code block to be executed
